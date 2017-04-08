@@ -1,17 +1,13 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
 	<head>
-		<title>NFC4AFC оплата проезда смартфоном</title>
+		<meta charset="utf-8">
 		<meta name="description" content="По-настоящему удобная оплата проезда смартфоном: без замены SIM-карты">
+		
+		<title>NFC4AFC оплата проезда смартфоном</title>
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		
+		<script src="js/jquery.min.js"></script>
 		 <!-- Custom Theme files -->
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
@@ -34,12 +30,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!----sreen-gallery-cursual---->
 						<div class="sreen-gallery-cursual">
 							 <!-- requried-jsfiles-for owl -->
-							
+								<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
 							 <!-- //requried-jsfiles-for owl -->
 							 <!-- start content_slider -->
 						       <div id="owl-demo" class="owl-carousel">
 					                <div class="item">
 					                	<img src="images/nfc4afc.png" title="name" />
+					                </div>
+									
+									<div class="item">
+					                	<img src="images/nfc4afc-pay.png" title="name" />
+					                </div>
+									
+									<div class="item">
+					                	<img src="images/nfc4afc-success.png" title="name" />
+					                </div>
+									
+									<div class="item">
+					                	<img src="images/nfc4afc-fare-pay.png" title="name" />
 					                </div>
 					                
 				              </div>
